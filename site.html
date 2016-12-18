@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>		
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<script src="telescope.js"></script>
+		<script>
+			window.onload = function() {
+				var telescope = new Telescope({
+					"element": document.getElementById("tele"),
+					"text": "[Hi]{Hello [friends]{friends and followers}}. [This]{This [website]{[small web page]{static web page, that is [rather small]{only 10 lines of [code]{code (if you exclude [javascript]{javascript - Which is a scripting language [for websites]{[designed]{designed (but often abused for [other]{[partly]{at least partly} bad} [things]{things, as for example identifying [users]{the browsers of users}})} for dynamic [content]{content - like telescope-texts -} on the client side}.})}}},}} [is]{is actually} a [demo]{[demonstration]{nice demonstration} of the [telescope module]{telescope module, I wrote [some time ago]{on [the 16th]{Sunday, the 16th} of October [2016]{[2016]{2016 (the year Donald Trump got elected as the new US president)}, for [a friend]{Adrian, a friend} of [mine]{mine. He was [fascinated]{absolutely fascinated} by that [website]{[website]{website (http://www.telescopictext.org/text/KPx0nlXlKTciC)} that shows you a [telescope-text]{text which you can [expand]{[expand]{expand [nearly]{nearly (okay, [not really]{not really, but you get the idea})} [endlessly]{endlessly to get more and more information}} by clicking on highlighted word}. That was really [cool]{cool, so I decided to make [that]{this telescope-text-thingamajig} [myself]{[myself]{myself (I accidentally wrote [mysql here.]{mysql here. Yes, I am a nerd. ^^})}. That was [fun]{fun but [lots of]{lots of hard} [work]{work because I wanted for [it]{the program} [to be intuitive]{that the creation of texts is [intuitive]{intuitive. The [user]{user of this module} [has]{only has} to specify the [text]{plain [text]{text, of what the user wishes to [display]{display as triggers and [what]{which text} to substitute it [with]{which. Check out the [source code]{source code (You can also check out the [module]{modules source [code]{file telescope.js}}.)} of [the demo]{this [small]{small ([Okay]{Okay, okay}, it's [not]{not really} [small]{small at [all]{all, I admit it}}.)} [demo]{[demonstration]{demonstration web page}}} to get [a idea]{the idea on how this [works]{works. What you think about this? [Tell me]{Tell me by commenting the code on [github]{github (you can also [fork]{fork it and send pull [requests]{requests (to make it better)} for} [it]{it if you like to})}}}}}}}}}}}}}}}}}}}}.}",
+					"flags": Telescope.USE_STYLES
+				});
+				telescope.display();
+			}
+		</script>
+	</head>
+	<body>
+		<div id="tele"></div>
+	</body>
+</html>
